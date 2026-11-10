@@ -35,3 +35,10 @@ mql5/*
 signal_desk/_index_before_assist8.html
 *_backup_*
 .workbuddy/
+
+# 老版验收截图与根目录重复文档
+/智能辅助_验收/
+/信号台能力成绩单_*.md
+/信号台配置冻结与v2候选方案_*.md
+/月度体检_*.md
+/验收标准.md
