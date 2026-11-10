@@ -1,0 +1,16 @@
+{
+ "tf": "M30",
+ "model": "deepseek-chat",
+ "min_interval_s": 300,
+ "llm_timeout_s": 60,
+ "enabled": true,
+ "risk_pct": 0.5,
+ "min_rr": 1.5,
+ "event_block_h": 4.0,
+ "atr_period": 14,
+ "adx_trend": 25,
+ "adx_range": 20,
+ "env_period": 20,
+ "env_dev_pct": 0,
+ "env_width_atr": 5.0
+}

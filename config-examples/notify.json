@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "channel": "pushplus",
+  "webhook": "在此填入你的 token / webhook",
+  "token": "在此填入你的 token / webhook",
+  "chat_id": "",
+  "panel_url": "",
+  "cooldown_s": 1800,
+  "daily_max": 60,
+  "quiet": "23:00-07:00",
+  "on_alert": true,
+  "on_order": true,
+  "on_settle": true,
+  "on_signal": true,
+  "auto_scan_min": 30
+}

@@ -1,0 +1,49 @@
+{
+ "symbols": [
+  {
+   "sym": "GOLD",
+   "name": "XAUUSD",
+   "label": "黄金",
+   "enabled": true,
+   "digits": 2,
+   "point": 0.01,
+   "contract": 100,
+   "near": 3.0,
+   "spread_alert": 1.8,
+   "spread_default": 0.3,
+   "slip": 0.05,
+   "unit": "美元/盎司",
+   "note": "1 手 = 100 盎司"
+  },
+  {
+   "sym": "EURUSD",
+   "name": "EURUSD",
+   "label": "欧元",
+   "enabled": false,
+   "digits": 5,
+   "point": 1e-05,
+   "contract": 100000,
+   "near": 0.0012,
+   "spread_alert": 0.00025,
+   "spread_default": 0.00012,
+   "slip": 2e-05,
+   "unit": "美元（报价货币）",
+   "note": "1 手 = 100,000 欧元"
+  },
+  {
+   "sym": "GBPUSD",
+   "name": "GBPUSD",
+   "label": "英镑",
+   "enabled": false,
+   "digits": 5,
+   "point": 1e-05,
+   "contract": 100000,
+   "near": 0.0016,
+   "spread_alert": 0.0003,
+   "spread_default": 0.00015,
+   "slip": 3e-05,
+   "unit": "美元（报价货币）",
+   "note": "1 手 = 100,000 英镑"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "enabled": false,
+ "auto": false,
+ "auto_interval": 30,
+ "auto_tf": "H1",
+ "recheck_min": 15,
+ "exec_channel": "auto",
+ "symbol": "GOLD#",
+ "allowed": [
+  "GOLD#"
+ ],
+ "risk_pct": 1.0,
+ "max_lots": 0.05,
+ "max_open": 1,
+ "daily_loss_pct": 2.0,
+ "sl_atr": 1.5,
+ "tp_atr": 3.0,
+ "min_score": 52.0,
+ "comment": "AIDesk",
+ "contract": 100.0,
+ "lot_step": 0.01,
+ "lot_min": 0.01,
+ "auto_locked": true
+}

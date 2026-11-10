@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv_recovery/
+
+# 密钥与本地凭据（绝不入库）
+.llm_key.json
+.mt5_mcp.json
+
+# 运行时数据（本地生成，不入库）
+signal_desk/data/
+data/
+signal_desk/out/
+signal_desk/_shots/
+signal_desk/models/
+
+# 日志与临时文件
+*.log
+.tmp*/
+.pytest_cache/
+
+# 本地开发辅助脚本与验收样张
+/_*.py
+/_*.png
+/视觉优化_验收/
+/_boot_*
+
+# MT5 产物：只保留桥接 EA 源码
+mql5/*
+!mql5/GoldBridge.mq5
+*.ex5
+
+# 备份与历史
+signal_desk/_index_before_assist8.html
+*_backup_*
+.workbuddy/
